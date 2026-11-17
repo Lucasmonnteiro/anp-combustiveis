@@ -1,0 +1,13 @@
+# Dados completos ficam fora do Git (baixe da ANP; veja o README)
+*.csv
+!dados/amostra_tabela_master.csv
+
+# Python
+__pycache__/
+.venv/
+.ipynb_checkpoints/
+
+# Arquivos temporarios
+~$*
+.DS_Store
+Thumbs.db
